@@ -434,6 +434,16 @@ PrefabInstance:
       propertyPath: _trackingToWorldTransformer
       value: 
       objectReference: {fileID: 1514308517}
+    - target: {fileID: 3472034914630072659, guid: c6abbacc3d989ed4ab76f476b5e0b969,
+        type: 3}
+      propertyPath: _radius
+      value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3784612589067753350, guid: c6abbacc3d989ed4ab76f476b5e0b969,
+        type: 3}
+      propertyPath: _handJointId
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4224802115858978392, guid: c6abbacc3d989ed4ab76f476b5e0b969,
         type: 3}
       propertyPath: m_IsActive
@@ -508,6 +518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719419309573807508, guid: c6abbacc3d989ed4ab76f476b5e0b969,
+        type: 3}
+      propertyPath: _radius
+      value: 0.007
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -617,7 +617,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278756435831791332}
-  m_LocalRotation: {x: -0.03445663, y: -0, z: -0, w: 0.9994062}
+  m_LocalRotation: {x: -0.034021582, y: 0.005458124, z: 0.15831155, w: 0.9867878}
   m_LocalPosition: {x: 0, y: 0.00012207031, z: 0.00006866455}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
@@ -625,7 +625,7 @@ Transform:
   - {fileID: 587592028003267226}
   m_Father: {fileID: 5728976565585737410}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -3.949, y: 0, z: 18.229}
 --- !u!1 &1467627612473979125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1329,7 @@ GameObject:
   - component: {fileID: 2566522428635811292}
   - component: {fileID: 3245523394102480550}
   - component: {fileID: 3899448380252236917}
+  - component: {fileID: 383007631480684110}
   m_Layer: 0
   m_Name: Knob
   m_TagString: Untagged
@@ -1373,8 +1374,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 18.997168, y: 25.23376, z: 11.702895}
-  m_Center: {x: 0.13657163, y: 0.5400653, z: 5.3514442}
+  m_Size: {x: 3.9627752, y: 25.782541, z: 6.6702914}
+  m_Center: {x: -0.36047906, y: 0.2656753, z: 4.4309077}
 --- !u!54 &2566522428635811292
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1437,11 +1438,31 @@ MonoBehaviour:
   _rotationAxis: 2
   _constraints:
     MinAngle:
-      Constrain: 1
+      Constrain: 0
       Value: 0
     MaxAngle:
-      Constrain: 1
+      Constrain: 0
       Value: 120
+--- !u!114 &383007631480684110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133187763998413153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb4a09355f9dc244bfbcd2ac9208ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 3245523394102480550}
+  _boundsCollider: {fileID: 2141621107144045043}
+  _colliders:
+  - {fileID: 2141621107144045043}
 --- !u!1 &2220145290638110386
 GameObject:
   m_ObjectHideFlags: 0
@@ -3420,7 +3441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5026165273567979874
 Transform:
   m_ObjectHideFlags: 0
@@ -4651,7 +4672,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6884162700497040471}
-  m_LocalRotation: {x: 0.72089255, y: -0.1072158, z: 0.11449467, w: -0.6750628}
+  m_LocalRotation: {x: 0.7299163, y: 0.0038982073, z: -0.0041628378, w: -0.68351287}
   m_LocalPosition: {x: -0.29730988, y: 0.27079773, z: 4.2664413}
   m_LocalScale: {x: 100, y: 100.00002, z: 100}
   m_ConstrainProportionsScale: 0
@@ -4659,7 +4680,7 @@ Transform:
   - {fileID: 921328558578160888}
   m_Father: {fileID: 5728976565585737410}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -93.817, y: 9.865997, z: -9.843994}
 --- !u!1 &6947861891302995801
 GameObject:
   m_ObjectHideFlags: 0

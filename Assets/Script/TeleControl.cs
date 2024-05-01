@@ -2,12 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Meta.XR.MRUtilityKit;
+using Oculus.Interaction;
 using UnityEngine;
 
-public class SpawnLogic : MonoBehaviour
+public class TeleControl : MonoBehaviour
 {
     [SerializeField] Transform targetToFace;
     [SerializeField] private GameObject objectToSpawn;
+    [SerializeField] private OVRPassthroughLayer _passthrough;
     public MRUKAnchor.SceneLabels Labels = ~(MRUKAnchor.SceneLabels)0;
     private GameObject obj;
     public void StartSpawn()
@@ -23,6 +25,16 @@ public class SpawnLogic : MonoBehaviour
                 Vector3 alignVector = Vector3.ProjectOnPlane(targetToFace.position -obj.transform.position, Vector3.up);
                 obj.transform.forward = alignVector;
             }
+        }
+    }
+
+    private void Update()
+    {
+        if (obj)
+        {
+            float ratio = obj.GetComponentInChildren<SliderLogic>().sliderRatio;
+            _passthrough.textureOpacity = 1 - ratio;
+            obj.GetComponentInChildren<ScreenControl>().setOpacity(1-ratio);
         }
     }
 

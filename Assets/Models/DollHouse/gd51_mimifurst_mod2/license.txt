@@ -1,0 +1,11 @@
+Model Information:
+* title:	GD51_MimiFurst_MOD2
+* source:	https://sketchfab.com/3d-models/gd51-mimifurst-mod2-2132f64e055145fba7a42f7941273870
+* author:	Mimi Fürst (https://sketchfab.com/mimifurst)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "GD51_MimiFurst_MOD2" (https://sketchfab.com/3d-models/gd51-mimifurst-mod2-2132f64e055145fba7a42f7941273870) by Mimi Fürst (https://sketchfab.com/mimifurst) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

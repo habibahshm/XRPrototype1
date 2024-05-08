@@ -53,9 +53,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Lofi.unity
     guid: 35534ae006ea35b41a67566e6176a1bd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TeleAd.unity
     guid: 03baffadfc588c24989099bbeed91c4b
+  - enabled: 1
+    path: Assets/Samples/Meta MR Utility Kit/64.0.0/Passthrough Relighting/PassthroughRelighting.unity
+    guid: 36246cc1dd7f015428dc705da9e4497e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 00f712c42b004e747b327e4da8d17563,
       type: 2}

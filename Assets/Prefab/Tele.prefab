@@ -1797,7 +1797,7 @@ Transform:
   - {fileID: 4419942418707417759}
   - {fileID: 7257156653219411052}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5449882350115535264
 MonoBehaviour:
@@ -3135,6 +3135,79 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &5126778153202178030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5272725519705044833}
+  - component: {fileID: 2446136391190543921}
+  m_Layer: 0
+  m_Name: HandGrabInteractable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5272725519705044833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126778153202178030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4283188101526924862}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2446136391190543921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126778153202178030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 8555856595898669093}
+  _rigidbody: {fileID: 8076416463699769217}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 1
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 1
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &5239821483463316806
 GameObject:
   m_ObjectHideFlags: 0
@@ -13470,7 +13543,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d37430506224bf9409d216a5f2b1608c, type: 2}
+      objectReference: {fileID: 2100000, guid: c4d46179b3924a14bb1ab832de60005b, type: 2}
     - target: {fileID: 7048884849167925783, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
       propertyPath: m_Convex
@@ -13484,27 +13557,27 @@ PrefabInstance:
     - target: {fileID: 7624074458718828114, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6302417
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 7624074458718828114, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.9287924
+      value: 2.0198648
       objectReference: {fileID: 0}
     - target: {fileID: 7624074458718828114, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1648
+      value: 1.2197988
       objectReference: {fileID: 0}
     - target: {fileID: 7624074458718828114, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0106
+      value: -0.0102
       objectReference: {fileID: 0}
     - target: {fileID: 7624074458718828114, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0353
+      value: 0.044
       objectReference: {fileID: 0}
     - target: {fileID: 7624074458718828114, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
@@ -13514,7 +13587,7 @@ PrefabInstance:
     - target: {fileID: 7624074458718828114, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8620150187882518512, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
@@ -13599,6 +13672,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9019661880399076995, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5272725519705044833}
     - targetCorrespondingSourceObject: {fileID: 7624074458718828114, guid: 2d57f07d0cacba247b89bdabcb2eebd0,
         type: 3}
       insertIndex: -1
